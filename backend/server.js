@@ -45,6 +45,6 @@ app.get('/login',(req,res)=>{
     res.send("<h1 >shubham mourya</h1> <p>lorem12</p>")
 })
 
-app.listen(process.env.PORT,()=>{
+app.listen(4000,()=>{
     console.log('server is running on port 3000')
 })
